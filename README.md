@@ -1,41 +1,18 @@
-# Metro Line Application
-The Metro Line Stations Application is a Java application developed using JavaFX for the user interface and MySQL database for storing metro station data. The application's purpose is to find the shortest and least costly path between any two metro stations within a metro network.
-
-## Features
-
-- **Station Selection**: Users can select the origin and destination stations from dropdown menus.
-- **Path Finding**: The application uses Dijkstra's algorithm to find the shortest path between the selected origin and destination stations.
-- **Output Display**: The application displays the shortest path, including the time and number of stations, in a user-friendly format.
-
 ## Getting Started
 
-To run the Metro Line Stations Application, follow these steps:
+Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-1. Clone the repository to your local machine.
-2. Ensure you have Java and MySQL installed on your system.
-3. Import the provided SQL script to create the database schema and populate it with metro station data.
-4. Update the database connection details in the `DatabaseConnector.java` file if necessary.
-5. Compile and run the `App.java` file to launch the application.
+## Folder Structure
 
-## Usage
+The workspace contains two folders by default, where:
 
-1. Launch the application.
-2. Select the origin and destination stations from the dropdown menus.
-3. Click the "Proceed" button to find the shortest path.
-4. View the output, which includes the shortest path, time, and number of stations.
-5. Optionally, click the "Lines Details" button to view details about metro lines and stations.
+- `src`: the folder to maintain sources
+- `lib`: the folder to maintain dependencies
 
-## Compatibility
+Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-- **Java**: The application is written in Java and is compatible with Java versions 8 and above.
-- **JavaFX**: The user interface is developed using JavaFX, which requires JavaFX libraries.
-- **MySQL**: The application uses MySQL for database operations and is compatible with MySQL databases.
-- **Operating System**: The application should run on any operating system that supports Java and MySQL.
+> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Contributing
+## Dependency Management
 
-Contributions to the Metro Line Stations Application are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
